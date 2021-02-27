@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path='/bubbles' component={BubblePage} />
+          <PrivateRoute exact path='/bubbles' component={BubblePage} />
           <Route exact path="/" component={Login} />
         </Switch>
       </div>
